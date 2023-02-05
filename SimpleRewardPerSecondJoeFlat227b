@@ -838,6 +838,12 @@ contract AAASimpleRewarderPerSec is Ownable {
         isRewarderEnabled = true;
     }
 
+
+    function myDepositedLP () external view returns(uint) {
+        return userInfo[msg.sender].amount;
+    }
+
+
     /// @notice Deposit tokens to this contract
     /// @param _amount token amount to deposit
     function deposit(uint256 _amount) external {//eth sized not wei
