@@ -1,4 +1,5 @@
-//written largely by chatgpt may have errors not fully tested
+//Don't use, written largely by chatgpt seems to be full of errors and wrong numbers used and comments are wrong
+
 //maybe look at https://etherscan.io/address/0x7dd7aa4b560692c882d982312c0b53b24c51523a#code for base32 stuff for cidv1 encoding
 
 // SPDX-License-Identifier: MIT
